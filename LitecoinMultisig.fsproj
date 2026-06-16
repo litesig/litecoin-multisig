@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>LitecoinMultisig</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="src/Types.fs" />
+    <Compile Include="src/Crypto.fs" />
+    <Compile Include="src/Bip32.fs" />
+    <Compile Include="src/Script.fs" />
+    <Compile Include="src/Address.fs" />
+    <Compile Include="src/Psbt.fs" />
+    <Compile Include="src/KeyStore.fs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Fable.Core" Version="4.3.0" />
+    <PackageReference Include="Fable.Promise" Version="3.2.0" />
+  </ItemGroup>
+</Project>
